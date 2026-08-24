@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-24'
 papers:
   XGS1MRYAAAAJ:2VqYfGB8ITEC:
     citations: 6
@@ -58,7 +58,7 @@ papers:
     title: Depth-based branching level estimation for bronchoscopic navigation
     year: '2021'
   XGS1MRYAAAAJ:_5tno0g5mFcC:
-    citations: 17
+    citations: 18
     title: Visual slam for bronchoscope tracking and bronchus reconstruction in bronchoscopic navigation
     year: '2019'
   XGS1MRYAAAAJ:bKqednn6t2AC:
