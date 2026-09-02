@@ -14,6 +14,53 @@ This page presents a collection of small tools, utilities, experimental applicat
 Some projects are available as open-source software on GitHub.
 
 ---
+## Lab Meeting Workflow Automation
+
+To improve the consistency and efficiency of our weekly laboratory meetings, I reorganized the meeting workflow and developed several supporting tools for meeting preparation and management.
+
+Because the meeting chair is rotated among students, meeting preparation was sometimes inconsistent, and meetings did not always start on time. To address this issue, I first reviewed and standardized the overall workflow, including chair assignment, topic and presenter planning, preparation of shared meeting folders, meeting-day setup, and post-meeting follow-up.
+
+Based on this workflow, I developed and maintained several tools to reduce repetitive work and make meeting preparation easier for both the chair and the meeting coordinator.
+
+### Automated Chair Reminder
+
+I developed an automated email reminder tool that sends a notification to the chair scheduled for the following week.
+
+The chair rotation is determined at the beginning of each semester, while suggested discussion topics are prepared based on previous meeting experience. The reminder is automatically sent every Wednesday at 10:00 AM.
+
+This helps prevent cases in which the assigned chair is unaware of the upcoming responsibility and also reduces the amount of manual follow-up required from the meeting coordinator.
+
+### Meeting Folder Management Tool
+
+Meeting materials are stored on an Ubuntu-based shared server, where correct file and directory permissions are important.
+
+In the past, users unfamiliar with Linux permissions could create meeting folders without the appropriate access settings, which sometimes prevented other members from uploading their presentation or report files.
+
+To solve this problem, I developed a web-based folder management tool. The chair can select the meeting type, such as **CAS**, **LMM**, or the regular laboratory meeting, specify the meeting date, and create the required directory with a single operation.
+
+The tool automatically creates the appropriate folder structure and applies the required file permissions, reducing setup errors and simplifying preparation for the chair.
+
+### Progress Report / Presentation Merge Tool
+
+Before each meeting, the chair needs to collect presentation files from laboratory members and combine them into a single file for presentation.
+
+Because this process is repetitive and largely identical every week, I developed a tool that automatically reads presentation files (`.pptx`) from a specified directory and merges them according to a predefined mapping between users and filenames.
+
+This reduced a task that previously required approximately **10–20 minutes** of manual work to **less than 5 minutes** in typical cases.
+
+### Dedicated Meeting Computer Setup and Maintenance
+
+I also maintain a dedicated computer for laboratory meetings.
+
+Previously, the chair often needed to find an available laptop before the meeting and configure the necessary equipment and online meeting information each time.
+
+The dedicated meeting computer is kept ready with commonly used meeting links, connection information, and device settings placed in easily accessible locations. This reduces meeting-day preparation and helps meetings start more smoothly.
+
+### Impact
+
+These workflow improvements and supporting tools have helped make the preparation process more consistent and reduced repetitive work for both meeting chairs and organizers.
+
+The system provides a more structured workflow from chair assignment and meeting preparation through file management, presentation preparation, meeting-day setup, and follow-up, contributing to smoother and more reliable weekly laboratory meetings.
 ## GPU Server Monitor
 
 **GPU Server Monitor** is a lightweight server monitoring application developed with **Streamlit** for monitoring the computing resources of our laboratory servers.
