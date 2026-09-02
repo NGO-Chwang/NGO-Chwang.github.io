@@ -73,7 +73,7 @@ The application is designed primarily for use within a shared laboratory computi
 - **Framework:** Streamlit
 - **Purpose:** Shared CPU/GPU resource monitoring
 - **Users:** Approximately 40 laboratory members
-- **Source code:** [GitHub](YOUR_GITHUB_REPOSITORY_URL)
+- **Source code:** [GitHub](https://github.com/NGO-Chwang/GPU-monitor.git)
 
 ---
 
