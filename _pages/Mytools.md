@@ -14,9 +14,6 @@ This page presents a collection of small tools, utilities, experimental applicat
 Some projects are available as open-source software on GitHub.
 
 ---
-
-## GPU Monitoring Tool
-
 ## GPU Server Monitor
 
 **GPU Server Monitor** is a lightweight server monitoring application developed with **Streamlit** for monitoring the computing resources of our laboratory servers.
@@ -37,6 +34,7 @@ In addition to overall resource utilization, the tool provides detailed informat
 - the user associated with each process;
 - process start time;
 - detailed GPU usage for individual programs.
+- Wheather GPU is health or not (temperture, programs size v.s. GPU)
 
 One of the most useful features is the ability to identify **who is currently using each GPU and when the corresponding process was started**. This makes it much easier for laboratory members to understand the current GPU allocation and coordinate the use of shared computing resources.
 
@@ -57,7 +55,15 @@ The system is currently used in our laboratory, which has approximately **40 stu
 By providing a centralized overview of GPU usage, the tool reduces the need to manually connect to individual servers or ask other users about resource availability.
 
 The tool has received positive feedback from laboratory members, particularly for its simple interface and the ability to quickly identify available GPUs and understand ongoing computational workloads.
+<div class="row justify-content-center mt-3">
+  <div class="col-md-9 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/GPU-stat.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
+<div class="caption">
+  User statistics from August 19, 2026, to September 1, 2026 (the horizontal axis represents the last segment of the user's IPv4 address, and the vertical axis represents the number of visits; page refreshes are not counted)..
+</div>
 ### Implementation
 
 The monitoring interface is implemented using **Streamlit**, enabling the system to provide an accessible web-based dashboard without requiring users to install additional client software.
