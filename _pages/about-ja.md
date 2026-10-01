@@ -2,7 +2,8 @@
 layout: about
 title: 自己紹介
 permalink: /ja/
-subtitle: <a href='http://www.newves.org/wiki/'>MoriLab@Nagoya University</a> 名古屋大学 博士研究員
+subtitle: <a href='http://www.asu.ac.jp'></a>　愛知産業大学　造形学部スマートデザイン学科　講師
+
 lang: ja
 translation_url: /
 
@@ -12,8 +13,8 @@ profile:
   image_circular: false
   more_info: >
     <p>052-789-5688</p>
-    <p>〒464-8601 愛知県名古屋市千種区不老町</p>
-    <p>名古屋大学 IB館南館 466室</p>
+    <p>〒444-0005  愛知県岡崎市岡町原山12-5</p>
+    <p>名古屋大学 1号館 1617室</p>
 
 selected_papers: true
 social: true
