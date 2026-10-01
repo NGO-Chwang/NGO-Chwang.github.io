@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://www.newves.org/wiki/'>MoriLab@Nagoya University</a> Postdoctoral Researcher at Nagoya University
+subtitle: <a href='https://www.asu.ac.jp/'>Department of Smart Design, Faculty of Design and Architecture, Aichi Sangyo University</a> 
 
 profile:
   align: right
   image: chwang-photo.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>052-789-5688</p>
-    <p>South Wing 466, Furo-cho, Chikusa-ward </p>
-    <p>Nagoya-City,　Aichi prefecture, 464-8601</p>
+    <p>0564-48-4511 (1617)</p>　　  
+    <p>1-617, harayama 12-5, Okatyo </p>
+    <p>Okazaki-City,　Aichi prefecture, 444-0005</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
